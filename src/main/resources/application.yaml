@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: quadra_livre
+  datasource:
+    url: jdbc:postgresql://localhost:5432/quadra_livre
+    username: postgres
+    password: postgres
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
